@@ -4,9 +4,12 @@ import React from 'react';
 const Footer = () => {
   return(
 
-    <div>
-      Footer works!
-    </div>
+    <footer className="p-3 bg-light">
+      <div className="container">
+        Footer Works!
+      </div>
+      </footer>
+  
   )
 }
 

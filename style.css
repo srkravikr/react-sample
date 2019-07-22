@@ -1,3 +1,15 @@
 h1, p {
   font-family: Lato;
 }
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  min-height:100vh
+}
+.appContainer header, 
+.appContainer footer {
+  flex:0;
+}
+.appContainer main {
+    flex: 1;
+}

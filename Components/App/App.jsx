@@ -5,7 +5,7 @@ import MainLayout from '../Layout/MainLayout'
 const App = () => {
   return(
 
-    <div>
+    <div className="appContainer">
       <MainLayout/>
     </div>
   )
