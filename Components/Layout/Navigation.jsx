@@ -1,20 +1,21 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Navigation = () => {
   return(
-    <div className=" navbar-collapse collapse" id="navbarSupportedContent">
+    <div className="" id="navbarSupportedContent">
       <ul className="navbar-nav mr-auto">
         <li className="nav-item active">
-          <a className="nav-link" href="#">Home</a>
+          <Link className="nav-link" to="/">Home</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">About</a>
+          <Link className="nav-link" to="/About">About</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Services</a>
+          <Link className="nav-link" to="/Services">Services</Link>
         </li>
         <li className="nav-item">
-          <a className="nav-link" href="#">Contact</a>
+          <Link className="nav-link" to="/Contact">Contact</Link>
         </li>
         
       </ul>
